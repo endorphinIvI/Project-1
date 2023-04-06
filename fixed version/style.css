@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+  padding-right: 0;
+}
+
+/* prvni cast projektu */
+.yta {
+  background-image: url(/images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 650px;
+}
+h1 {
+  display: block;
+  color: aliceblue;
+  text-align: right;
+  position: absolute;
+  font-size: 75px;
+  right: 22%;
+  top: 380px;
+  line-height: 1;
+}
+
+/* druha cast projektu */
+.aboutus {
+  display: flex;
+  height: auto;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+h2 {
+  font-size: 50px;
+  padding: 12px 0;
+}
+.a {
+  text-align: left;
+  width: 347px;
+  height: 80%;
+}
+.u {
+  background-image: url(/images/anneliese-phillips-uv4-vl3liKM-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 444px;
+  border-radius: 5px;
+  width: 35%;
+}
+
+/* treti cast projektu */
+.whatwd {
+  width: 100%;
+  height: auto;
+  background-color: #33292a;
+}
+h3 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.wwd-text {
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wwd-text p {
+  width: 66%;
+}
+.wwd-icons {
+  display: flex;
+  filter: invert(100%);
+  text-align: center;
+  justify-content: center;
+  gap: 8%;
+  padding-bottom: 100px;
+}
+.wwd-icons h6 {
+  font-size: 33px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.wwd-icons img {
+  width: 55px;
+}
+
+/* ctvrta cast projektu */
+.ourtrips {
+  width: 80%;
+  height: 1040px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0 10%;
+  gap: 1%;
+}
+.ourtrips div {
+  width: 25%;
+  height: 22%;
+}
+.ourtrips span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 22%;
+  background-color: #f2f2f2;
+  /*cyhbí zaoblené okraje:*/
+  border-radius: 5px;
+}
+.ourtrips img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.ourtrips h6 {
+  font-size: 40px;
+  text-align: center;
+}
+
+/* pata cast projektu */
+.wdywtg {
+  width: 100%;
+  height: 380px;
+  background-color: #644b4f;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: white;
+}
+.wcont {
+  width: 56.5%;
+}
+.whead {
+  width: 27%;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.28;
+}
+.wtxt {
+  width: 34.5%;
+}
+
+.wtxt p{
+  margin-bottom: 10px;
+}
+.but {
+  width: 7%;
+  height: auto;
+  margin: 40px 18% 0;
+}
+button {
+  border-radius: 5px;
+  border: none;
+  width: 132px;
+  height: 38px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* sesta cast projektu */
+.reviews {
+  width: 100%;
+  height: 840px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 7%;
+}
+.rehead {
+  width: 100%;
+  text-align: center;
+}
+.rehead h4 {
+  font-size: 50px;
+}
+.rehead p {
+  /*pozor! pevně daná šířka v pixelech ti rozhazuje layout na zařízeních
+  menších než 400px*/
+  /* width: 400px; */
+  /*pokud nechceš, aby byl text větší než 400px, použij max-width*/
+  max-width: 400px;
+  margin: 0 auto;
+}
+.view {
+  width: 341px;
+  text-align: center;
+}
+.view div {
+  margin: 0 auto 5%;
+}
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 15px 0 25px;
+}
+.bert img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.bert div {
+  width: 145px;
+  height: 145px;
+}
+.frank img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.frank div {
+  width: 145px;
+  height: 145px;
+}
+
+/* sedma cast projektu */
+.photo {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.photo img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+/* osma cast projektu */
+footer {
+  width: 100%;
+  height: 130px;
+  background-color: #333333;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  color: #efa69d;
+  font-size: 15px;
+  text-decoration: none;
+  border-bottom: 2px solid #efa69d;
+}
+footer a:hover {
+  color: #e9877b;
+  border-bottom: 2px solid #e9877b;
+}
+footer p {
+  margin: 7px;
+  color: aliceblue;
+  font-size: 13px;
+}
+
+/*v tomto případě není nutné dávat tu poznámku o min-width*/
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  /* prvni cast projektu */
+
+  h1 {
+    font-size: 45px;
+    right: 8%;
+    top: 470px;
+  }
+
+  /* druha cast projektu */
+
+  h2 {
+    font-size: 30px;
+  }
+  .aboutus {
+    margin: 100px 0 100px;
+    flex-direction: column;
+    height: auto;
+  }
+  .a {
+    width: 81%;
+  }
+  .u {
+    width: 87%;
+    height: 265px;
+  }
+
+  /* treti cast projektu */
+
+  .whatwd {
+    height: auto;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .wwd-text p {
+    width: 86%;
+  }
+  .wwd-icons {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .wwd-icons img {
+    width: 60px;
+  }
+  .wwd-icons h6 {
+    margin: 10px 0 40px;
+  }
+
+  /* ctvrta cast projektu */
+
+  .ourtrips {
+    height: auto;
+    width: 100%;
+    margin: 60px 0;
+  }
+  .ourtrips div {
+    width: 90%;
+    height: 280px;
+    margin: 5px 0;
+  }
+  .ourtrips h6 {
+    font-size: 25px;
+  }
+  .ourtrips span {
+    width: 90%;
+    margin: 5px 0;
+    height: 95px;
+  }
+
+  /* pata cast projektu */
+
+  .wdywtg {
+    /*pozor! takto nastavená výška ti rozbíjí rozložení u telefonů 
+    menšíhc než 227 px (tak melé ale neexistují, takže to můžeme ignorovat) - oprava by byla
+    změnit*/
+    /* height: 690px; */
+    /*možná oprava: */
+    height: fit-content;
+    padding: 30px 0;
+
+    flex-direction: column;
+    align-content: center;
+    align-items: normal;
+  }
+  .whead {
+    order: -1;
+    width: 84%;
+    font-size: 55px;
+  }
+  .wtxt {
+    width: 84%;
+  }
+  .but {
+    width: auto;
+    margin: 33px 0 0;
+  }
+
+  /* sesta cast projektu */
+
+  .reviews {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rehead {
+    margin: 0;
+    width: 87%;
+    margin: 100px 0 55px;
+  }
+  .rehead h4 {
+    font-size: 28px;
+  }
+  .view {
+    margin: 0;
+    width: 86.5%;
+  }
+  .frank {
+    margin-bottom: 50px;
+  }
+
+  /* sedma cast prjektu */
+  .photo {
+    flex-direction: column;
+    height: auto;
+  }
+  .photo img {
+    width: 100%;
+    height: 355px;
+  }
+}
